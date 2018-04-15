@@ -19,11 +19,6 @@ $("input[type='text']").keypress(function(event){
 });
 
 
-$(".new").click(function() {
-    $("body").append("<div class='container'><h1>To-Do List<i class='fa fa-plus' aria-hidden='true'></i></h1><input type='text' placeholder='Add New Todo'><ul></ul></div>");
-});
-
-
 $(".fa-plus").click(function() {
    $("input[type='text']").fadeToggle();
 });
