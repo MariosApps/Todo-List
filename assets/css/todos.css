@@ -5,25 +5,6 @@ body {
     background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.new {
-    background-color: #db940f;
-    width: 10%;
-    height: 30px;
-    margin: 30px auto;
-    text-align: center;
-    line-height: 30px;
-    color: #fff;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.new:hover {
-    background-color: #cb8b13;
-    border-color: #db940f;
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
-}
-
 h1 {
     background-color: #2980b9;
     color: #fff;
